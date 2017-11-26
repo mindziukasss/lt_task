@@ -167,3 +167,24 @@ body {
 #thank_size {
     height: 250px;
 }
+
+
+@media screen and (max-width: 765px) {
+    .check_box {
+        margin: 35px 0px 0px 70px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #head-title {
+        font-size: 25px;
+        margin-left: -50px; ;
+    }
+    #head-text {
+        font-size: 15px;
+        margin-left: -100px;
+    }
+    .btn-danger {
+        margin-left: -95px;
+    }
+}
