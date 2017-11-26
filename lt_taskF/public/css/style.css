@@ -1,0 +1,91 @@
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav_bar {
+    background: #060606 !important;
+}
+
+#logo {
+    margin: 15px 0px 20px 45px;
+}
+
+.navbar-right {
+    margin: 15px 40px 0px 0px;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+}
+
+
+/*jumbotron*/
+
+.jumbotron {
+    background: url("../images/hero.jpg") no-repeat bottom center / cover;
+    margin-top: 75px;
+    padding: 140px;
+    color:#ffffff;
+    width: 100%;
+    height: auto;
+}
+#head-title {
+    margin: 0px 0px 35px 0px;
+}
+
+
+.btn-danger {
+    background: #ed1e24 !important;
+    border-radius: 0px !important;
+    background-position: 0 0 !important;
+    margin-top: 35px;
+    padding: 15px 45px 15px 45px;
+    font-size: 20px;
+
+}
+
+
+/*products*/
+#products-title {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#products {
+    margin: 10px 0px 60px 0px;
+    padding-top: 35px;
+}
+
+.title {
+    margin-right: 75px;
+}
+
+#product3 {
+    margin-right: 75px;
+}
+#product2 {
+    margin-right: 125px;
+}
+#product1 {
+    margin-right: 195px;
+}
+
+/*case*/
+
+#case {
+    margin-top: 130px;
+}
+#case-image {
+    margin-top: 60px;
+}
+#case-text {
+    margin-right: 140px;
+    margin-bottom: 20px;
+}
+
+#link {
+    color: red;
+    text-decoration:underline;
+}
