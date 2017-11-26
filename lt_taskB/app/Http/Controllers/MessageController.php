@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Message;
+use Validator;
 use Illuminate\Http\Request;
 
 class MessageController extends Controller
