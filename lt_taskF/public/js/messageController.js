@@ -15,7 +15,7 @@ app.controller('messageController', function($scope, $http){
             $scope.phone = "";
             $scope.message = "";
             $('#messageCreate').modal('hide');
-            
+            $('#messageThanks').modal('show');
         });
     };
 });

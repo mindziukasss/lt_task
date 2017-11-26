@@ -159,3 +159,11 @@ body {
     margin: 0px -200px 0px -50px;
 }
 
+/*thanks*/
+#thank_info {
+    color: #606060;
+    font-size: 15px;
+}
+#thank_size {
+    height: 250px;
+}
