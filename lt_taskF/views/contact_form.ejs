@@ -1,0 +1,51 @@
+<div ng-controller="messageController">
+    <div class="modal fade" id="messageCreate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h1 class="text-center" id="form-title"><strong>Your details here</strong></h1>
+                        <form ng-submit="storeMessage()">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label>Full name *</label>
+                                    <input type="text" class="form-control" ng-model="full_name" required="required" data-error="Full name is required.">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label>Phone</label>
+                                    <input type="text" class="form-control" ng-model="phone">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="email_field">
+                                <div class="form-group">
+                                    <label>Email *</label>
+                                    <input type="email" class="form-control" ng-model="email" required="required" data-error="Valid email is required.">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <label>Your Message</label>
+                                    <textarea id="text-field" type="text" ng-model="message" class="form-control"rows="6"></textarea>
+                                    <p class="text-muted"><strong>*</strong> Required</p></p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="check_box">
+                                    <input type="checkbox" name="i_agree" id="i_agree" checked required="required" data-error="Valid checkbox is required.">
+                                    <label class="check_box_label" for="i_agree"><span id="checkbox_name">Agree on terms</span></label>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <button type="submit" class="btn btn-danger" ng-href="#messageFanks">Get in touch</button>
+                                <h4><a href="" style="text-decoration:underline;">Terms and conditions</a></h4>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
