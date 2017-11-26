@@ -11,3 +11,4 @@ npm-debug.log
 yarn-error.log
 .env
 lt_taskF/node_modules
+lt_taskF/.idea
